@@ -1,11 +1,19 @@
-Small fun little side project, fully searchable Ukrainian dictionary (Ukr -> Eng). A bit messy.
 
-Made because I was a little annoyed by the dearth of resources for Ukrainian learners. All data scraped from wiktionary and [dbnary](http://kaiko.getalp.org/about-dbnary/), which helpfully provides many, many definitions for words that do not have entries yet in Wiktionary. Forms filled in from [here](https://lcorp.ulif.org.ua/dictua/dictua.aspx), where a match was found.
+Forked from [dmklinger/ukrainian](https://github.com/dmklinger/ukrainian)
 
-Frontend gratiously hosted by github pages: https://dmklinger.github.io/ukrainian/
+Goal:
+- Searchable Ukrainian dictionary (UA -> EN), with declensions
+  - Translations for words галицького діалекту
+  - Definitions for роди, відмінки (What does each one mean?)
+  
+  -  Optional:
+    - Dictionary entries in Ukrainian as well (scrape Slovnyk.ua?)
+      -  Online-search? If internet access is present, draw from Slovnyk as well?
+      -   Clickable links (if the entry has a word for which we have a definition, link it) 
+- Offline mobile (and desktop) version
 
-To get the data yourself run `main.py` in `etl/`. Requires a lot of time and a decent amount of RAM.
 
-Distributed under [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License) - feel free to reuse this data!
 
-(If you are also interested in a Russian dictionary, I have made a modified version of [this](https://github.com/dmklinger/russian) code for Russian)
+> Made because I was a little annoyed by the dearth of resources for Ukrainian learners. All data scraped from wiktionary and [dbnary](http://kaiko.getalp.org/about-dbnary/), which helpfully provides many, many definitions for words that do not have entries yet in Wiktionary. Forms filled in from [here](https://lcorp.ulif.org.ua/dictua/dictua.aspx), where a match was found.
+>
+> To get the data yourself run `main.py` in `etl/`. Requires a lot of time and a decent amount of RAM.
