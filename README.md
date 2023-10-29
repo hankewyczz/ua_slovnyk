@@ -12,6 +12,7 @@ Goal:
       -   Clickable links (if the entry has a word for which we have a definition, link it)
       -   Programattic declensions? [(start here)](https://en.wikipedia.org/wiki/Ukrainian_grammar#First_declension)
 - Offline mobile (and desktop) version
+  - Look into SingleFile for saving a webpage to IOS
 
 
 
